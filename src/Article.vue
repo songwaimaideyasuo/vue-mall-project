@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import axios from 'axios'
 
+//定义响应式数据 ref
 const articleList = ref([]);
 
 //发送异步请求，获取所有文章数据
